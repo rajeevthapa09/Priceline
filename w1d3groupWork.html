@@ -8,48 +8,41 @@
     <title>Priceline</title>
     <style>
         .ourDiv {
-display: grid;
+            display: grid;
             border: 1px solid #d7dde4;
             width: 800px;
             height: 300px;
-            border-radius: 10px;
-            margin-bottom: 100px;
-        
+            border-radius: 20px;
+
+
         }
 
         .myDiv {
             display: flex;
-            margin-top: 10px;
+            margin-top: 5px;
             margin-right: 10px;
-            margin-left: 20px;
+            margin-left: 10px;
             margin-bottom: 10px;
             gap: 50px;
- border-radius: 20px;
+            padding-left: 1px;
 
         }
 
         .interior {
             display: grid;
             gap: 20px;
-            
+
             grid-template-columns: 350px 350px;
-            align-content: normal;
-            justify-content: flex-start;
-           margin-left: 10px;
+            margin-left: 15px;
+            margin-top: 10px;
 
         }
 
-        .box{
+        .box {
             border: 1px solid #c7d0da;
-            margin-right: 20px;
+            border-radius: 5px;
+            padding-bottom: 5px;
 
-        }
-        .services{
-        
-            
-             padding:5px; 
-             
-             
         }
     </style>
 </head>
@@ -62,38 +55,64 @@ display: grid;
 
             <div class="myDiv">
                 <div class="myDiv">
-                    <div class="services" style=" width:65px; border: 1px solid #0B6EEF;padding:5px; background-color: #E8F2FF; border-radius: 10px;"><img src="/style/IMAGES/hotel.png" style="width: 15px;"> <label style="margin-left: 10px; font-size: 12px; color: #0B6EEF; ">Hotels</label></div>
-                    <div class="services"><img src="/style/IMAGES/flight.png" style="  width: 20px; border-radius: 20px; "><label style="margin-left: 10px; font-size: 12px; color: #0B6EEF;">Flights</label>
+                    <div class="services"
+                        style="padding: 5px; width:65px; border: 1px solid #0B6EEF;padding:5px; background-color: #E8F2FF; border-radius: 10px;">
+                        <img src="/style/IMAGES/hotel.png" style="width: 15px;"> <label
+                            style="margin-left: 10px; font-size: 12px; color: #0B6EEF; ">Hotels</label></div>
+                    <div class="services"><img src="/style/IMAGES/flight.png"
+                            style="  width: 20px; border-radius: 20px; "><label
+                            style="margin-left: 10px; font-size: 12px; color: #0B6EEF;">Flights</label>
                     </div>
                     <div class="services"><img src="/style/IMAGES/bundle and save.png"
-                            style="width: 20px;border: 1px solid black; border-radius: 50px;"><label style="margin-left: 10px; font-size: 12px; color: #0B6EEF;">Bundle & Save</label> </div>
+                            style="width: 20px;border: 1px solid black; border-radius: 50px;"><label
+                            style="margin-left: 10px; font-size: 12px; color: #0B6EEF;">Bundle & Save</label> </div>
                     <div class="services"><img src="/style/IMAGES/cars.png "
                             style=" width: 20px; border-radius: 20px; border: 1px solid black; border-radius: 50px;">
-                       <label style="margin-left: 10px; font-size: 12px; color: #0B6EEF;">Cars</label> 
+                        <label style="margin-left: 10px; font-size: 12px; color: #0B6EEF;">Cars</label>
                     </div>
                     <div class="services"><img src="/style/IMAGES/cruise.png"
                             style="width: 30px; border-radius: 20px; border: 1px solid black; border-radius: 50px;">
-                      <label style="margin-left: 10px; font-size: 12px; color: #0B6EEF;">Cruise</label>  
+                        <label style="margin-left: 10px; font-size: 12px; color: #0B6EEF;">Cruise</label>
                     </div>
                 </div>
 
             </div>
-            <div style="border:1px solid #d7dde4; width: 700px; height: 50px; border-radius: 10px; margin-bottom: 10px;">
-           <label style="color: b8c5d2; font-weight: lighter; margin-left: 20px; margin-top: 100px;"> Where to?</label>
+            <div style=" border:1px solid #d7dde4; width: 700px; height: 50px; border-radius: 10px; font-size: 12px;">
+                <div><img src="/style/IMAGES/searchIcon.png" style="width: 20px; padding-left: 10px; margin-top: 10px;">
+                    Where to?</div>
             </div>
             <div class="interior">
-                <div class="box">check-in check-out
-                    <div>04/05/2023 - 04/06/2023</div>
-                </div>
-                <div class="box">2 Adults, 1 Room</div>
-                <div class="box" style="background-color:#d0f1ac">Bundle + Save</div>
-                <div class="box" style="background-color: #0068ef; color: white;">Find Your Hotel</div>
-            </div>
-<div style="font-size: 10px; text-align: end; margin-right: 50px; margin-top: 10px; margin-bottom: 15px;">Book a Hotel with free cancellation for flexibility</div>
-        <div style="border-top: 1px solid #c7d0da; font-size: 12px; text-align: center; color: #277ef1; margin-bottom: 10px;">Book all of your hotels at once and save up to $625</div>
 
-</div>
-        
+                <div class="box" style="font-size: 10px; padding-left: 10px; padding-top: 10px; padding-right: 30px;">
+                    <span style="padding-left: 10px;">check-in check-out</span>
+                    <img src="/style/IMAGES/calender.png " style="width: 20px; float: left;">
+                    <div style="font-size: larger; padding-top: 2px;"><span style="padding-left: 10px;">04/05/2023 -
+                            04/06/2023</div>
+
+                </div>
+                <div class="box" style="margin-right: 40px;"><img src="/style/IMAGES/person.png"
+                        style="width:10px;margin-left: 10px; margin-top: 13px; "> <span style="font-size: 12px;">2
+                        Adults, 1 Room</span> </div>
+                <div class="box"
+                    style="background-color:#d0f1ac; font-size: 12px; padding-top: 10px; padding-left: 40px;">Bundle +
+                    Save
+                    <div style="float: right; font-size: 10px;">
+                        <label style="">Add a car</label>
+                        <label style="margin-left: 30px;">Add a flight</label>
+                    </div>
+                </div>
+                <div class="box"
+                    style="background-color: #0068ef; color: white; padding-top: 10px; margin-right: 40px; text-align: center;">
+                    <span>Find Your Hotel </span> </div>
+            </div>
+            <div style="font-size: 10px; text-align: end; margin-right: 50px; margin-top: 10px; margin-bottom: 15px;">
+                Book a Hotel with free cancellation for flexibility</div>
+            <div
+                style="border-top: 1px solid #c7d0da; font-size: 12px; text-align: center; color: #277ef1; margin-bottom: 10px;">
+                Book all of your hotels at once and save up to $625</div>
+
+        </div>
+
 </body>
 
 </html>
